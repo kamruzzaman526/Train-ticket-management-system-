@@ -1,0 +1,5 @@
+
+	GOVERMENT_ANOUNCEMENT _:_N/A
+
+	NOTICE_FROM_BANGLADESH_RAILWAY_:_Do_not_throw_any_stone_at_the_running_train.
+	ABOUT_MEAL_:_a_meal_contains_one_vagetable_roll,_one_packet_beryani_and_one_soft_drinks.
