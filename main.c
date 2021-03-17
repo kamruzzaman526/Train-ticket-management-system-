@@ -2272,7 +2272,7 @@ Add_info_citra2()
     char ROUTE[20],ROUTE1[20],ROUTE2[20],ROUTE3[20],ROUTE4[20],ROUTE5[20],ROUTE6[20];
     char ROUTE7[20],ROUTE8[20],ROUTE9[20];
 
-    fptrs = fopen("citra.txt", "w+");/*  open for writing */
+    fptrs = fopen("citra2.txt", "w+");/*  open for writing */
     if (fptrs == NULL)
     {
         printf("File does not exists \n");
@@ -4405,7 +4405,7 @@ user_train_schedule()
     {
     case 0:
         system("cls");
-       // User();
+        User();
         break;
 
     case 1:
@@ -24802,7 +24802,7 @@ user_ticket_purchass()
 
 
     printf("\n                            >>                                            CHOOSE START STATION : DHAKA, KHULNA, RAJSHAHI, JESSORE, DARSHONA_HALT, CHUADANGA, ALAMDANGA");
-    printf("\n                            >>                                                                   PORADAH, MIRPUR, VERAMARA, PAKSHI, ISHARDI, CHUADANGA, ALAMDANGA");
+    printf("\n                            >>                                                                   PORADAH, MIRPUR, VERAMARA, PAKSHI, ISHARDI ");
 
     printf("\n\n                            >>                                            ENTER THE START STATION : ");
     scanf("%s",start);
@@ -26305,8 +26305,8 @@ int User()               //user
 }
 
 
-
 /*
+
 
 //admin logim
 
@@ -26732,11 +26732,15 @@ int main()
     switch(ch)
     {
     case 1:
+     //   loginform();
+    //    break;
 
         User();
         break;
 
     case 2:
+      //  adminloginform();
+      //  break;
 
         Admin();
         break;
